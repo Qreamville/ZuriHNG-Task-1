@@ -15,6 +15,7 @@ const Main = () => {
             key={link.id}
             className="font-medium text-[#101828] text-md bg-[#EAECF0] text-center rounded-md border border-[#eaecf0] py-3 max-w-6xl w-10/12 md:w-9/12 hover:bg-[#D0D5DD]"
             target="_blank"
+            rel="noreferrer"
           >
             {link.name}
           </a>
