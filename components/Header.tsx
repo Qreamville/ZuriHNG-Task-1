@@ -16,7 +16,7 @@ const Header = () => {
           Annette Black
         </h2>
         <h2 id="slack" className="hidden">
-          oyeleyebal
+          BalikisOyeleye1️⃣
         </h2>
       </div>
       <div className="absolute top-0 right-10 md:right-40 xl:right-80 border h-10 w-10 grid place-items-center border-dashed border-[#d0d5dd] rounded-full cursor-pointer">
