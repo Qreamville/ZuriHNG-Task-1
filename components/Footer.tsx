@@ -5,9 +5,9 @@ import Zuri from "../assets/image/zuri.png";
 
 const Footer = () => {
   return (
-    <footer className="container mx-auto">
+    <footer className="container mx-auto px-4">
       <hr />
-      <div className="flex flex-col md:flex-row py-6 items-center justify-between gap-y-4">
+      <div className="flex flex-col sm:flex-row py-6 sm:items-center justify-between gap-y-4 items-start ">
         <Image src={Zuri} alt="Zuri" />
         <p className="font-medium text-[#667085] text-md">
           HNG Internship 9 Frontend Task

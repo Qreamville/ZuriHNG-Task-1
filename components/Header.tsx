@@ -1,19 +1,36 @@
 import Image from "next/image";
-import React from "react";
-import ProfileImage from "../assets/image/profile__img.svg";
+import React, { useState } from "react";
+import ProfileImage from "../assets/image/balikis.jpg";
 import { RiShareForwardLine } from "react-icons/ri";
 import { BsThreeDots } from "react-icons/bs";
+import { HiOutlineCamera } from "react-icons/hi";
 
 const Header = () => {
   return (
     <header className="h-52 flex flex-col items-center justify-center mt-8 relative">
-      <div className="flex flex-col gap-y-3">
-        <Image src={ProfileImage} id="profile_img" />
+      <div className="flex flex-col gap-y-3 items-center">
+        <div className="profile-container relative h-24 w-24 cursor-pointer">
+          <Image
+            id="profile_img"
+            src={ProfileImage}
+            alt="balikis"
+            layout="fill"
+            className="rounded-full"
+          />
+
+          <div className="profile-overlay bg-[#344054BF] top-0 bottom-0 w-full rounded-full absolute">
+            <HiOutlineCamera
+              color="#F9FAFB"
+              size={28}
+              className="absolute bottom-1 left-1/2 -translate-x-1/2"
+            />
+          </div>
+        </div>
         <h2
           id="twitter"
-          className="text-[#101828] font-semibold text-xl tracking-wider"
+          className="text-[#101828] font-bold text-xl tracking-wider"
         >
-          Annette Black
+          Balikis Oyeleye
         </h2>
         <h2 id="slack" className="hidden">
           BalikisOyeleye

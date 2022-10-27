@@ -16,13 +16,13 @@ export const links = [
     id: 4,
     tag: "book_python",
     name: "Python Books",
-    link: "https://books.zuri.team/python-for-beginners?ref_id=%3Cyourslackname%3E",
+    link: "https://books.zuri.team/python-for-beginners?ref_id=balikis",
   },
   {
     id: 5,
     tag: "pitch",
     name: "Background Check for Coders",
-    link: "https://background.zuri.team/",
+    link: "https://pitch.zuri.team/",
   },
   {
     id: 6,
