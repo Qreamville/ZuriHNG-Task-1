@@ -31,7 +31,7 @@ export const links = [
   },
   {
     id: 6,
-    tag: "books__design",
+    tag: "book__design",
     name: "Design Books: Get free design books from Zuri",
     link: "https://books.zuri.team/design-rules",
   },
