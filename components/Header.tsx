@@ -10,14 +10,12 @@ const Header = () => {
     <header className="h-52 flex flex-col items-center justify-center mt-8 relative">
       <div className="flex flex-col gap-y-3 items-center">
         <div className="profile-container relative h-24 w-24 cursor-pointer">
-          <Image
-            id="profile_img"
-            src={ProfileImage}
-            alt="balikis"
-            layout="fill"
+          <img
+            id="profile__img"
+            src={ProfileImage.src}
+            alt="profile"
             className="rounded-full"
           />
-
           <div className="profile-overlay bg-[#344054BF] top-0 bottom-0 w-full rounded-full absolute">
             <HiOutlineCamera
               color="#F9FAFB"
@@ -30,11 +28,11 @@ const Header = () => {
           id="twitter"
           className="text-[#101828] font-bold text-xl tracking-wider"
         >
-          Balikis Oyeleye
+          @Balikis_Oyeleye
         </h2>
-        <h2 id="slack" className="hidden">
+        <p id="slack" className="hidden">
           BalikisOyeleye
-        </h2>
+        </p>
       </div>
       <div className="absolute top-0 right-10 md:right-40 xl:right-80 border h-10 w-10 grid place-items-center border-dashed border-[#d0d5dd] rounded-full cursor-pointer">
         <RiShareForwardLine
